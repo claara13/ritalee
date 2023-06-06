@@ -1,0 +1,333 @@
+/*DOCUMENTO*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+		
+body{
+	font-family: 'DM Sans', sans-serif;
+	background-color: #F5F5F5;
+}
+/* BARRA SUPERIOR */
+header{
+	height: 100px;
+	background-color: #8C0303;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+		
+header figure {
+	width: 200px;
+}
+header figure img {
+	width: 100%;
+}
+/* MENU */
+nav{
+	height: 50px;
+	background-color: #8C0303;
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+		
+nav ul{
+	list-style: none;
+}
+		
+nav ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+		
+nav ul li a{
+	padding: 15px 50px ;
+	text-decoration: none;
+	color: #F5F5F5;
+	transition: 0.4s;
+	font-weight: 700;
+}
+		
+nav ul li a:hover{
+	background-color: #8C0303;
+	color:#000;
+}
+/* TOPO */
+
+#topo {
+	height: 700px;
+	padding-top: 30px;
+}
+#boxtopo {
+	height: 650px;
+	width: 1300px;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+#titulotopo {
+width: 1000px;
+height: 200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: century gothic;
+font-size: 30px;
+
+}
+#titulotopo figure {
+	width: 200px;
+	margin-top: 10px;
+}
+
+#titulotopo figure img {
+	width: 100%;
+}
+#titulotopo h1 {
+	font-size: 200%;
+	color: #8C0303;
+
+}
+.rita1 {
+	box-shadow: -10px 10px 0px #8C0303;
+	margin: 0;
+	padding: 0;
+	border-radius: 15px;
+}
+
+.rita1:hover{
+	box-shadow: 6px 6px 10px #a4a4a4;
+}
+
+.frase {
+	font-family: 'Dancing Script', cursive;
+	height: 80px;
+	color: #8C0303;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 45px;
+	margin: 20px 0;
+}
+#containerboxtopo {
+
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.rita2{
+	box-shadow: 0px 10px 10px 0px #8C0303;
+	margin: 0;
+	padding: 0;
+	border-radius: 15px;
+}
+
+.rita2:hover{
+	box-shadow: 6px 6px 10px #a4a4a4;
+}
+
+
+
+
+#biografia {
+	padding: 50px;
+}	
+#biografia h1 {
+	margin-bottom: 20px;
+	color: #000;
+	font-weight: 900;
+}
+.linhatitulo{
+	position: relative;
+	left: 150px;
+	top: -25px;
+	width: 89%;
+	border-color:black;
+}
+	
+
+#discografia {
+	padding: 50px;
+	
+}
+.divisao{
+	display: flex;
+}
+
+.divisao2{
+	
+	padding:0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#discografia h1{
+		margin-bottom: 20px;
+		color: #000;
+		font-weight: 900;
+
+}
+.linhatitulo{
+		position: relative;
+		left: 150px;
+		top: -25px;
+		width: 89%;
+		border-color:black;
+}
+
+#shopping {
+
+	padding: 50px;
+	justify-content: space-around;
+}
+
+footer{
+
+height:70px;
+background-color:#8C0303;
+}
+
+.biografiabox{
+	background-color:#F2F2F2;
+	border-radius: 20px;
+	display: flex;
+	margin-top: 30px;
+	color: black;
+	box-shadow: 0 5px 4px #8C0303;
+	}
+
+	.biografiabox:hover{
+		transition: 0.3s;
+		color: #8C0303;
+	}
+
+	.Biografia{
+		font-family: "Century Gothic";
+		color:#8C0303;
+		margin-left: 10px;
+		}
+		.conteudo{
+		display: flex;
+			justify-content: space-around;
+		}
+		.conteudo img {
+		margin: 30px;
+		}
+		.conteudo p {
+		font-family: 'DM Sans', sans-serif;
+		font-size: 17px;
+		margin-right: 30px;
+		}
+
+
+
+
+#discografia h2{
+	text-align: center;
+	
+}
+
+.discografiabox{
+	display: flex;
+	align-items: center;
+	background-color:#F2F2F2;
+	border-radius: 20px;
+	display: flex;
+	margin-top: 30px;
+	color: black;
+	box-shadow: 0 5px 4px #8C0303;
+	}
+
+	.discografiabox:hover{
+		transition: 0.3s;
+		color: #8C0303;
+	}
+
+	.Discografia{
+		font-family: "Century Gothic";
+		color:#8C0303;
+		margin-left: 10px;
+		align-items: center;
+
+		}
+		.conteudo2{
+		display: flex;
+		justify-content: space-around;
+		
+		}
+		.conteudo2 img {
+		margin: 30px;
+		}
+		.conteudo2 p {
+		margin-top: 40px;
+		font-family: 'DM Sans', sans-serif;
+		font-size: 17px;
+		margin-right: 30px;
+		}
+
+		.boxshopping{
+			width: 400px;
+			height: 250px;
+			background-color: #F2EEEB;
+			border-radius: 10px;
+			padding:10px;
+			margin: 25px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			box-shadow: 0 5px 4px #8C0303;
+		}
+		
+		.boxshopping:hover{
+			box-shadow: 6px 6px 10px #8C0303;
+			transition: 0.3s;
+		}
+		
+		.boxshopping h2{
+			margin: 0 0 10px 0;
+			padding: 0;
+		}
+
+		.boxshopping figure {
+			/*width: 150px;
+			height: 240px;*/
+			background-color: #F2F2F2;
+			margin: 0 20px 0 0;
+			padding:0;
+		}
+
+		.boxshopping img{
+			max-width: 160px;
+		}
+		.boxshopping span{
+			font-size: 30px;
+			font-weight: 900;
+			margin: 0 0 0 40px;
+			padding: 0;
+		}
+		
+		.meu-botao {
+			background-color:#8C0303;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-bottom: 5px;
+		}
+		
+		.botao {
+			background-color: #8C0303;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			text-decoration: none;
+		}
